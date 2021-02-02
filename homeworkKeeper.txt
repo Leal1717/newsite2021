@@ -7,6 +7,18 @@
   "credits" : 30,
   "questions" :
   [
+      {
+      "kind": "oneQuestion",
+      "unit": 1,
+      "exercise": 3,
+      "letter": "d",
+      "question": "What is this?",
+      "audio": "https://raw.githubusercontent.com/Leal1717/demo/main/audio_normalType.mp3",
+      "image": "https://www.shareicon.net/data/128x128/2015/12/06/195439_car_256x256.png",
+      "sentences": [],
+      "options": ["it's superman", "it's your mother", "it's nothing", "it's a car"],
+      "correct" : "it's a car"
+    },
     {
       "kind": "normal",
       "unit": 5,
@@ -14,6 +26,7 @@
       "letter": "a",
       "question": "Complete with DO or DOES",
       "audio": "https://raw.githubusercontent.com/Leal1717/demo/main/audio_normalType.mp3",
+      "image": "https://dy7oszgl9a56g.cloudfront.net/wp-content/uploads/2018/08/20094619/4-560x116.jpg",
       "sentences": [
         "She __ not like to study",
         "__ you like to study?",
@@ -29,12 +42,12 @@
       "letter": "c",
       "question": "Memorize the words!",
       "sentences": [
-      {"word": "fire", "image": "https://colegiolostilos.com/images/icons/full-color/128px/flame.png"},
-      {"word": "flower", "image": "https://colegiolostilos.com/images/icons/full-color/128px/flower.png"},
-      {"word": "microphone", "image": "https://colegiolostilos.com/images/icons/full-color/128px/mic.png"},
-      {"word": "radio", "image": "https://colegiolostilos.com/images/icons/full-color/128px/radio.png"},
-      {"word": "UFO", "image": "https://colegiolostilos.com/images/icons/full-color/128px/ufo.png"},
-      {"word": "door", "image": "https://colegiolostilos.com/images/icons/full-color/128px/door.png"}
+      {"word": "fire", "image": "https://colegiolostilos.com/images/icons/full-color/128px/flame.png", "audio": "https://raw.githubusercontent.com/Leal1717/demo/main/audio/memory/fire.mp3},
+      {"word": "flower", "image": "https://colegiolostilos.com/images/icons/full-color/128px/flower.png", "audio": "https://raw.githubusercontent.com/Leal1717/demo/main/audio/memory/flower.mp3},
+      {"word": "microphone", "image": "https://colegiolostilos.com/images/icons/full-color/128px/mic.png", "audio": "https://raw.githubusercontent.com/Leal1717/demo/main/audio/memory/microphone.mp3},
+      {"word": "radio", "image": "https://colegiolostilos.com/images/icons/full-color/128px/radio.png", "audio": "https://raw.githubusercontent.com/Leal1717/demo/main/audio/memory/radio.mp3},
+      {"word": "UFO", "image": "https://colegiolostilos.com/images/icons/full-color/128px/ufo.png", "audio": "https://raw.githubusercontent.com/Leal1717/demo/main/audio/memory/ufo.mp3},
+      {"word": "door", "image": "https://colegiolostilos.com/images/icons/full-color/128px/door.png", "audio": "https://raw.githubusercontent.com/Leal1717/demo/main/audio/memory/door.mp3"}
       ],
       "options": null,
       "correct" : null
@@ -47,10 +60,10 @@
       "letter": "d",
       "question": "Choose the words in the correct order",
       "sentences": [
-      {"options": ["red", "white", "green", "hook", "arrow", "anchor"], "correct": ["white", "anchor"], "image": "https://colegiolostilos.com/images/icons/full-color/128px/anchor.png"},
-      {"options": ["ride", "drive", "fly", "a bike", "a boat", "an airplane"], "correct": ["ride", "a bike"], "image": "https://colegiolostilos.com/images/icons/full-color/128px/bike.png"},
-      {"options": ["explode", "go", "drink", "the ball", "the bomb", "the bowling"], "correct": ["explode", "the bomb"], "image": "https://colegiolostilos.com/images/icons/full-color/128px/bomb.png"},
-      {"options": ["ship", "a ship", "a big", "big"], "correct": ["a big", "ship"], "image": "https://colegiolostilos.com/images/icons/full-color/128px/cruise.png"}
+      {"options": ["red", "white", "green", "hook", "arrow", "anchor"], "correct": ["white", "anchor"], "image": "https://colegiolostilos.com/images/icons/full-color/128px/anchor.png", "audio": "https://raw.githubusercontent.com/Leal1717/demo/main/audio/tapOrder/white_anchor.mp3"},
+      {"options": ["ride", "drive", "fly", "a bike", "a boat", "an airplane"], "correct": ["ride", "a bike"], "image": "https://colegiolostilos.com/images/icons/full-color/128px/bike.png", "audio": "https://raw.githubusercontent.com/Leal1717/demo/main/audio/tapOrder/ride_a_bike.mp3"},
+      {"options": ["explode", "go", "drink", "the ball", "the bomb", "the bowling"], "correct": ["explode", "the bomb"], "image": "https://colegiolostilos.com/images/icons/full-color/128px/bomb.png", "audio": "https://raw.githubusercontent.com/Leal1717/demo/main/audio/tapOrder/explode_the_bomb.mp3"},
+      {"options": ["ship", "a ship", "a big", "big"], "correct": ["a big", "ship"], "image": "https://colegiolostilos.com/images/icons/full-color/128px/cruise.png", "audio": "https://raw.githubusercontent.com/Leal1717/demo/main/audio/tapOrder/a_big_ship.mp3"}
       ],
       "options": null,
       "correct" : null
