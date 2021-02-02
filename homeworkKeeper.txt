@@ -74,16 +74,17 @@
       "exercise": 3,
       "letter": "b",
       "question": "Complete the conversation according to the audio",
+      "image": "https://www.shareicon.net/data/128x128/2015/12/06/195439_car_256x256.png",
       "sentences": [
           {"left" : [
-              {"text": "I'd like __ cookies please", "options": ["12", "20"], "correct": "20"}, 
-              {"text": "Yes, please. Can I __ a cup of coffee?", "options": ["have", "drink"], "correct": "have"}, 
-              {"text": "Ok, thanks! Do you have change for __ ?", "options": ["50", "100"], "correct": "50"}
+              {"text": "I'd like __ cookies please", "options": ["12", "20"], "correct": "20", "audio": "https://raw.githubusercontent.com/Leal1717/demo/main/audio/talks/1.mp3"}, 
+              {"text": "Yes, please. Can I __ a cup of coffee?", "options": ["have", "drink"], "correct": "have", "audio": "https://raw.githubusercontent.com/Leal1717/demo/main/audio/talks/3.mp3"}, 
+              {"text": "Ok, thanks! Do you have change for __ ?", "options": ["50", "100"], "correct": "50", "audio": "https://raw.githubusercontent.com/Leal1717/demo/main/audio/talks/5.mp3"}
                 ], 
            "right": [
-              {"text": "That's alright. __ else?", "options": ["Anything", "Everything"], "correct": "Anything"}, 
-              {"text": "Sure! That'll be __", "options": ["U$ 14,00", "U$ 40,00"], "correct": "U$ 14,00"},
-              {"text": "I'm afraid I don't. But we take __ card too!", "options": ["debit", "credit"], "correct": "debit"}
+              {"text": "That's alright. __ else?", "options": ["Anything", "Everything"], "correct": "Anything", "audio": "https://raw.githubusercontent.com/Leal1717/demo/main/audio/talks/2.mp3"}, 
+              {"text": "Sure! That'll be __", "options": ["U$ 14,00", "U$ 40,00"], "correct": "U$ 14,00", "audio": "https://raw.githubusercontent.com/Leal1717/demo/main/audio/talks/4.mp3"},
+              {"text": "I'm afraid I don't. But we take __ card too!", "options": ["debit", "credit"], "correct": "debit", "audio": "https://raw.githubusercontent.com/Leal1717/demo/main/audio/talks/6.mp3"}
               ]
            }
       ],
@@ -96,13 +97,14 @@
       "exercise": 12,
       "letter": "a",
       "question": "Complete with DO or DOES",
+      "image": "https://dy7oszgl9a56g.cloudfront.net/wp-content/uploads/2018/08/20094619/4-560x116.jpg",
       "sentences": [
-        "She __ not play soccer everyday",
-        "__ they play volleyball every night?",
-        "they __ not go swimming twice a week",
-        "__ he play cards with his friends?",
-        "__ you play videogames?",
-        "we __ not like to go bowling"
+        {"sentece": "She __ not play soccer everyday", "audio": "https://raw.githubusercontent.com/Leal1717/demo/main/audio/sameOptions/1.mp3"},
+        {"sentece": "__ they play volleyball every night?", "audio": "https://raw.githubusercontent.com/Leal1717/demo/main/audio/sameOptions/2.mp3"},
+        {"sentece": "they __ not go swimming twice a week", "audio": "https://raw.githubusercontent.com/Leal1717/demo/main/audio/sameOptions/3.mp3"},
+        {"sentece": "__ he play cards with his friends?", "audio": "https://raw.githubusercontent.com/Leal1717/demo/main/audio/sameOptions/4.mp3"},
+        {"sentece": "__ you play videogames?", "audio": "https://raw.githubusercontent.com/Leal1717/demo/main/audio/sameOptions/5.mp3"},
+        {"sentece": "we __ not like to go bowling", "audio": "https://raw.githubusercontent.com/Leal1717/demo/main/audio/sameOptions/6.mp3"}
       ],
       "options": ["do", "does"],
       "correct" : ["does", "do", "do", "does", "do", "do"]
@@ -113,6 +115,7 @@
       "exercise": 1,
       "letter": "a",
       "question": "Complete the text",
+      "image": "https://dy7oszgl9a56g.cloudfront.net/wp-content/uploads/2018/08/20094619/4-560x116.jpg",
       "audio": "https://raw.githubusercontent.com/Leal1717/demo/main/audio_textType.mp3",
       "sentences": [
         "Pedro __ to play sports. He __ soccer everyday, but he __ play very well. So he __ with his father every saturday."
